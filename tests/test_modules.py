@@ -1,3 +1,4 @@
+
 from importlib import import_module
 
 
@@ -13,3 +14,4 @@ def test_gallery_module():
     html = gallery.build_gallery(['img1.png', 'img2.png'])
     assert 'class="gallery"' in html
     assert '<img src="img1.png"' in html
+
